@@ -46,8 +46,6 @@ To run, you require [Docker Desktop](https://www.docker.com/products/docker-desk
     - username: `root`
     - password: as specified in `docker-compose.yml`
 
-### If you have any questions or comments with regards to this project, please email [g.trombino@ulster.ac.uk](mailto:g.trombino@ulster.ac.uk)
-
 *****
 
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
