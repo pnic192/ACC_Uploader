@@ -27,7 +27,7 @@ To run, you require [Docker Desktop](https://www.docker.com/products/docker-desk
 ### Using the environment
 
 - Point your browser to your configured IP address (localhost if you are using Docker Desktop, or the IP address you jotted down before for the docker virtual machine if you are running Docker Toolbox) using the port in `docker-compose.yml` and you should see the Laravel welcome screen, for example:
-`localhost:8080`.  Your database should be reachable at the same IP in port `13306` from any database manager you wish to use.
+`localhost:8080`.  Your database should be reachable at the same IP in port `53306` from any database manager you wish to use.
 
 - **_IMPORTANT_**: Delete the `.git` folder in this repository to unlink this instance from GitLab BEFORE you try to put your project under version control.  You can then follow the instructions in Gitlab to add an existing project under version control when you create a new project.
 
@@ -37,7 +37,7 @@ To run, you require [Docker Desktop](https://www.docker.com/products/docker-desk
 
 ### Database
 
-- The database server is accessible through port `13306`.  Check the details in the `docker-comopse.yml` file for configured `root` User and second user credentials.
+- The database server is accessible through port `53306`.  Check the details in the `docker-comopse.yml` file for configured `root` User and second user credentials.
 
 #### phpMyAdmin
 
