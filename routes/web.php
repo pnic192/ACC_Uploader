@@ -18,4 +18,6 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('about');
 });
-Route::resource('contacts', 'ContactController');
+
+Route::get('/multiuploads', 'UploadController@uploadForm');
+Route::post('/multiuploads', 'UploadController@uploadSubmit');
